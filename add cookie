@@ -1,0 +1,13 @@
+headers = {
+    'content-type': 'application/json',
+    'Cookie': 'session=abc123'
+}
+
+r = requests.post(u, data=payload, headers=headers, verify=False, allow_redirects=False)
+
+headers = {
+    'content-type': 'application/json',
+    'Authorization': 'Bearer abc123'
+}
+
+r = requests.post(u, data=payload, headers=headers, verify=False, allow_redirects=False)
